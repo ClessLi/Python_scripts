@@ -1,0 +1,38 @@
+要理解多态的好处，我们还需要再编写一个函数，这个函数接受一个Animal类型的变量：
+
+def run_twice(animal):
+    animal.run()
+    animal.run()
+当我们传入Animal的实例时，run_twice()就打印出：
+
+>>> run_twice(Animal())
+Animal is running...
+Animal is running...
+当我们传入Dog的实例时，run_twice()就打印出：
+
+>>> run_twice(Dog())
+Dog is running...
+Dog is running...
+当我们传入Cat的实例时，run_twice()就打印出：
+
+>>> run_twice(Cat())
+Cat is running...
+Cat is running...
+看上去没啥意思，但是仔细想想，现在，如果我们再定义一个Tortoise类型，也从Animal派生：
+
+class Tortoise(Animal):
+    def run(self):
+        print('Tortoise is running slowly...')
+当我们调用run_twice()时，传入Tortoise的实例：
+
+>>> run_twice(Tortoise())
+Tortoise is running slowly...
+Tortoise is running slowly...
+你会发现，新增一个Animal的子类，不必对run_twice()做任何修改，实际上，任何依赖Animal作为参数的函数或者方法都可以不加修改地正常运行，原因就在于多态。
+
+多态的好处就是，当我们需要传入Dog、Cat、Tortoise……时，我们只需要接收Animal类型就可以了，因为Dog、Cat、Tortoise……都是Animal类型，然后，按照Animal类型进行操作即可。由于Animal类型有run()方法，因此，传入的任意类型，只要是Animal类或者子类，就会自动调用实际类型的run()方法，这就是多态的意思：
+
+*注释*
+不需要考虑对象属于哪个类，自动调用此方法
+多态与封装
+封装，如，将对象属性“封装”在对象内，将其作为特性储存。
