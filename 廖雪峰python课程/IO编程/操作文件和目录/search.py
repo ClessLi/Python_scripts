@@ -16,7 +16,7 @@ def search_dir(keyword,path):
 #将程序第一个参数传给keyword
 keyword=sys.argv[1]
 #获取当前目录路径
-path=os.getcwd()
+path='.'
 
 #运行程序
 search_dir(keyword,path)
