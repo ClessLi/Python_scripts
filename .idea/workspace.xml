@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0fd56786-ac71-4683-90fc-8924b85257c5" name="Default" comment="分布式进程">
-      <change beforePath="$PROJECT_DIR$/.idea/Python_scripts.iml" afterPath="$PROJECT_DIR$/.idea/Python_scripts.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="0fd56786-ac71-4683-90fc-8924b85257c5" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/廖雪峰python课程/进程和线程/分布式进程/taskworker.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/廖雪峰python课程/进程和线程/分布式进程/taskmanager.py" afterPath="$PROJECT_DIR$/廖雪峰python课程/进程和线程/分布式进程/taskmanager.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,6 +31,7 @@
       <list>
         <option value="$PROJECT_DIR$/学习笔记/1.面向对象编程" />
         <option value="$PROJECT_DIR$/廖雪峰python课程/进程和线程/分布式进程/taskmanager.py" />
+        <option value="$PROJECT_DIR$/廖雪峰python课程/进程和线程/分布式进程/taskworker.py" />
       </list>
     </option>
   </component>
@@ -55,6 +56,9 @@
         </selected-state>
       </profile-state>
     </entry>
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -153,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1520526656508</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="分布式进程">
+      <created>1520526681661</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1520526681661</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -195,7 +206,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#21#47#0" expanded="true" />
+            <element signature="e#37#63#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -213,7 +224,17 @@
         <state relative-caret-position="510">
           <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
           <folding>
-            <element signature="e#21#47#0" expanded="true" />
+            <element signature="e#37#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/廖雪峰python课程/进程和线程/分布式进程/taskworker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#21#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
