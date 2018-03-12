@@ -12,7 +12,7 @@ def checkbmp(file):
 
 try:
     f=open(sys.argv[1],'r')
-
+    checkbmp(f)
 finally:
     if f:
         f.close()
