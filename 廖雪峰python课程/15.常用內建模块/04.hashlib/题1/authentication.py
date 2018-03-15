@@ -48,7 +48,7 @@ if __name__=='__main__':
         password=getpass.getpass()
         c_password=getpass.getpass(prompt='Confirm Password: ')
         if password==c_password:
-            password_md5=encrypt(password)
+            password_md5=encrypt(username,password)
             sigh_up(username,password_md5)
         else:
             print 'The twice importations of passwords are inconsistent'
@@ -56,5 +56,5 @@ if __name__=='__main__':
         print 'Now login...'
         username=raw_input('Username: ')
         password=getpass.getpass()
-        password_md5=encrypt(password)
+        password_md5=encrypt(username,password)
         sigh_in(username,password_md5)
