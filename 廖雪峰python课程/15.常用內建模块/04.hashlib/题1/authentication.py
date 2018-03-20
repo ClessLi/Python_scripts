@@ -1,6 +1,7 @@
 import getpass
 import hashlib
 import json
+import time
 
 def sigh_up(username,password):
     global Auth_file
@@ -26,7 +27,7 @@ def sigh_in(username,password):
         Auth_json_dict = json.load(Auth_file)
         if username in Auth_json_dict and Auth_json_dict[username]==password:
             print 'Now logining...'
-            #time.sleep(1)
+            time.sleep(1)
             print 'Login successful.'
         else:
             print 'Incorrect username or password.'
