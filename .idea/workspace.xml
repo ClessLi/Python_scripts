@@ -3,7 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="0fd56786-ac71-4683-90fc-8924b85257c5" name="Default" comment="">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+=======
+      <change beforePath="" afterPath="$PROJECT_DIR$/廖雪峰python课程/进程和线程/分布式进程/taskworker.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/廖雪峰python课程/进程和线程/分布式进程/taskmanager.py" afterPath="$PROJECT_DIR$/廖雪峰python课程/进程和线程/分布式进程/taskmanager.py" />
+>>>>>>> parent of bb3d384... 调整目录
 =======
       <change beforePath="" afterPath="$PROJECT_DIR$/廖雪峰python课程/进程和线程/分布式进程/taskworker.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -18,6 +24,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="tcp_server.py" pinned="false" current-in-tab="false">
@@ -95,6 +102,9 @@
         </entry>
       </file>
     </leaf>
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+>>>>>>> parent of bb3d384... 调整目录
 =======
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
 >>>>>>> parent of bb3d384... 调整目录
@@ -248,6 +258,7 @@
       <updated>1520526681661</updated>
     </task>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <task id="LOCAL-00003" summary="正则表达式">
       <created>1520843633979</created>
       <option name="number" value="00003" />
@@ -343,6 +354,9 @@
 =======
     <option name="localTasksCounter" value="3" />
 >>>>>>> parent of bb3d384... 调整目录
+=======
+    <option name="localTasksCounter" value="3" />
+>>>>>>> parent of bb3d384... 调整目录
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -350,6 +364,7 @@
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24892704" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
 <<<<<<< HEAD
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905483" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -371,12 +386,26 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
 >>>>>>> parent of bb3d384... 调整目录
+=======
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+>>>>>>> parent of bb3d384... 调整目录
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+>>>>>>> parent of bb3d384... 调整目录
 =======
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
 >>>>>>> parent of bb3d384... 调整目录
@@ -389,6 +418,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="分布式进程" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <MESSAGE value="正则表达式" />
     <MESSAGE value="目录更新、图片信息查询脚本" />
     <MESSAGE value="script for user sigh up and sigh in" />
@@ -400,6 +430,9 @@
     <MESSAGE value="send_e-mail v2 complete." />
     <MESSAGE value="调整目录" />
     <option name="LAST_COMMIT_MESSAGE" value="调整目录" />
+=======
+    <option name="LAST_COMMIT_MESSAGE" value="分布式进程" />
+>>>>>>> parent of bb3d384... 调整目录
 =======
     <option name="LAST_COMMIT_MESSAGE" value="分布式进程" />
 >>>>>>> parent of bb3d384... 调整目录
@@ -427,6 +460,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/学习笔记/1.面向对象编程" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/idea.properties" />
@@ -526,10 +560,15 @@
         <state relative-caret-position="782">
           <caret line="37" column="21" lean-forward="false" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
 =======
+=======
+>>>>>>> parent of bb3d384... 调整目录
     <entry file="file://$PROJECT_DIR$/廖雪峰python课程/进程和线程/分布式进程/taskmanager.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+<<<<<<< HEAD
+>>>>>>> parent of bb3d384... 调整目录
+=======
 >>>>>>> parent of bb3d384... 调整目录
           <folding>
             <element signature="e#37#63#0" expanded="true" />
@@ -544,6 +583,7 @@
           <folding>
             <element signature="e#21#44#0" expanded="true" />
           </folding>
+<<<<<<< HEAD
         </state>
       </provider>
     </entry>
@@ -581,6 +621,11 @@
       </provider>
     </entry>
 =======
+>>>>>>> parent of bb3d384... 调整目录
+=======
+        </state>
+      </provider>
+    </entry>
 >>>>>>> parent of bb3d384... 调整目录
   </component>
   <component name="masterDetails">
