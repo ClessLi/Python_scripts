@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0fd56786-ac71-4683-90fc-8924b85257c5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/廖雪峰python课程/进程和线程/分布式进程/taskworker.py" />
+    <list default="true" id="0fd56786-ac71-4683-90fc-8924b85257c5" name="Default" comment="send_e-mail v2 complete.">
+      <change beforePath="" afterPath="$PROJECT_DIR$/廖雪峰python课程/15.常用內建模块/03.struct/题1/test.bmp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/爬虫学习/test.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/Python_scripts.iml" afterPath="$PROJECT_DIR$/.idea/Python_scripts.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/廖雪峰python课程/进程和线程/分布式进程/taskmanager.py" afterPath="$PROJECT_DIR$/廖雪峰python课程/进程和线程/分布式进程/taskmanager.py" />
+      <change beforePath="$PROJECT_DIR$/廖雪峰python课程/14.正则表达式/check_e-mail_v1.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/廖雪峰python课程/15.常用內建模块/04.hashlib/题1/passwd.txt" afterPath="$PROJECT_DIR$/廖雪峰python课程/15.常用內建模块/04.hashlib/题1/passwd.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,7 +18,72 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="tcp_server.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/廖雪峰python课程/18.网络编程/02.TCP编程/tcp_server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="authentication.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/廖雪峰python课程/15.常用內建模块/04.hashlib/题1/authentication.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="782">
+              <caret line="37" column="21" lean-forward="false" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="send_e_mail_v2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/廖雪峰python课程/19.电子邮件/SMTP发送邮件/send_e_mail_v2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/爬虫学习/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="udp_client.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/廖雪峰python课程/18.网络编程/03.UDP编程/udp_client.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="udp_server.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/廖雪峰python课程/18.网络编程/03.UDP编程/udp_server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -32,12 +101,27 @@
         <option value="$PROJECT_DIR$/学习笔记/1.面向对象编程" />
         <option value="$PROJECT_DIR$/廖雪峰python课程/进程和线程/分布式进程/taskmanager.py" />
         <option value="$PROJECT_DIR$/廖雪峰python课程/进程和线程/分布式进程/taskworker.py" />
+        <option value="$PROJECT_DIR$/廖雪峰python课程/正则表达式/check_e-mail_v1.py" />
+        <option value="$PROJECT_DIR$/廖雪峰python课程/15.常用內建模块/03.struct/题1/题目" />
+        <option value="$PROJECT_DIR$/廖雪峰python课程/15.常用內建模块/03.struct/题1/bmpinfo.py" />
+        <option value="$PROJECT_DIR$/廖雪峰python课程/15.常用內建模块/04.hashlib/题1/题目" />
+        <option value="$PROJECT_DIR$/廖雪峰python课程/15.常用內建模块/04.hashlib/题1/authentication.py" />
+        <option value="$PROJECT_DIR$/廖雪峰python课程/18.网络编程/02.TCP编程/tcp_client.py" />
+        <option value="$PROJECT_DIR$/廖雪峰python课程/18.网络编程/02.TCP编程/tcp_server.py" />
+        <option value="$PROJECT_DIR$/廖雪峰python课程/18.网络编程/03.UDP编程/udp_client.py" />
+        <option value="$PROJECT_DIR$/廖雪峰python课程/18.网络编程/03.UDP编程/udp_server.py" />
+        <option value="$PROJECT_DIR$/廖雪峰python课程/14.正则表达式/check_e-mail_v1.py" />
+        <option value="$PROJECT_DIR$/廖雪峰python课程/19.电子邮件/SMTP发送邮件/send_e_mail.py" />
+        <option value="$PROJECT_DIR$/廖雪峰python课程/19.电子邮件/SMTP发送邮件/send_e_mail_v2.py" />
+        <option value="$PROJECT_DIR$/廖雪峰python课程/19.电子邮件/SMTP发送邮件/check_e_mail_v2.py" />
+        <option value="$PROJECT_DIR$/PyQuery/test.py" />
+        <option value="$PROJECT_DIR$/爬虫学习/test.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="335" />
-    <option name="y" value="45" />
+    <option name="x" value="67" />
+    <option name="y" value="31" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -48,10 +132,13 @@
           <State>
             <id />
           </State>
+          <State>
+            <id>Python</id>
+          </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>Buildout</id>
+            <id>PyPep8Inspection</id>
           </State>
         </selected-state>
       </profile-state>
@@ -85,44 +172,99 @@
             <path>
               <item name="Python_scripts" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python_scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="study notes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python_scripts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_scripts" type="462c0819:PsiDirectoryNode" />
               <item name="廖雪峰python课程" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python_scripts" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python_scripts" type="462c0819:PsiDirectoryNode" />
               <item name="廖雪峰python课程" type="462c0819:PsiDirectoryNode" />
-              <item name="IO编程" type="462c0819:PsiDirectoryNode" />
+              <item name="12.IO编程" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python_scripts" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python_scripts" type="462c0819:PsiDirectoryNode" />
               <item name="廖雪峰python课程" type="462c0819:PsiDirectoryNode" />
-              <item name="IO编程" type="462c0819:PsiDirectoryNode" />
+              <item name="12.IO编程" type="462c0819:PsiDirectoryNode" />
               <item name="操作文件和目录" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python_scripts" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python_scripts" type="462c0819:PsiDirectoryNode" />
               <item name="廖雪峰python课程" type="462c0819:PsiDirectoryNode" />
-              <item name="进程和线程" type="462c0819:PsiDirectoryNode" />
+              <item name="13.进程和线程" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python_scripts" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python_scripts" type="462c0819:PsiDirectoryNode" />
               <item name="廖雪峰python课程" type="462c0819:PsiDirectoryNode" />
-              <item name="进程和线程" type="462c0819:PsiDirectoryNode" />
+              <item name="13.进程和线程" type="462c0819:PsiDirectoryNode" />
               <item name="分布式进程" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python_scripts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="廖雪峰python课程" type="462c0819:PsiDirectoryNode" />
+              <item name="14.正则表达式" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python_scripts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="廖雪峰python课程" type="462c0819:PsiDirectoryNode" />
+              <item name="15.常用內建模块" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python_scripts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="廖雪峰python课程" type="462c0819:PsiDirectoryNode" />
+              <item name="15.常用內建模块" type="462c0819:PsiDirectoryNode" />
+              <item name="04.hashlib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python_scripts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="廖雪峰python课程" type="462c0819:PsiDirectoryNode" />
+              <item name="15.常用內建模块" type="462c0819:PsiDirectoryNode" />
+              <item name="04.hashlib" type="462c0819:PsiDirectoryNode" />
+              <item name="题1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python_scripts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="廖雪峰python课程" type="462c0819:PsiDirectoryNode" />
+              <item name="19.电子邮件" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python_scripts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="廖雪峰python课程" type="462c0819:PsiDirectoryNode" />
+              <item name="19.电子邮件" type="462c0819:PsiDirectoryNode" />
+              <item name="SMTP发送邮件" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python_scripts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="爬虫学习" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\GitHub\Python_scripts\廖雪峰python课程\19.电子邮件\SMTP发送邮件" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -135,6 +277,114 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="Python.test">
+    <configuration name="check_e-mail_v1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/廖雪峰python课程/14.正则表达式" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python_scripts" />
+      <option name="SCRIPT_NAME" value="F:\GitHub\Python_scripts\廖雪峰python课程\14.正则表达式\check_e-mail_v2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="check_e_mail_v2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/廖雪峰python课程/19.电子邮件/SMTP发送邮件" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python_scripts" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/廖雪峰python课程/19.电子邮件/SMTP发送邮件/check_e_mail_v2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="send_e_mail" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/廖雪峰python课程/19.电子邮件/SMTP发送邮件" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python_scripts" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/廖雪峰python课程/19.电子邮件/SMTP发送邮件/send_e_mail.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="send_e_mail_v2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/廖雪峰python课程/19.电子邮件/SMTP发送邮件" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python_scripts" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/廖雪峰python课程/19.电子邮件/SMTP发送邮件/send_e_mail_v2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PyQuery" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python_scripts" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyQuery/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.send_e_mail" />
+      <item index="1" class="java.lang.String" itemvalue="Python.check_e-mail_v1" />
+      <item index="2" class="java.lang.String" itemvalue="Python.send_e_mail_v2" />
+      <item index="3" class="java.lang.String" itemvalue="Python.check_e_mail_v2" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.test" />
+        <item index="1" class="java.lang.String" itemvalue="Python.send_e_mail_v2" />
+        <item index="2" class="java.lang.String" itemvalue="Python.check_e_mail_v2" />
+        <item index="3" class="java.lang.String" itemvalue="Python.check_e-mail_v1" />
+        <item index="4" class="java.lang.String" itemvalue="Python.send_e_mail" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -164,28 +414,112 @@
       <option name="project" value="LOCAL" />
       <updated>1520526681661</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="正则表达式">
+      <created>1520843633979</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1520843633980</updated>
+    </task>
+    <task id="LOCAL-00004" summary="目录更新、图片信息查询脚本">
+      <created>1520870633584</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1520870633584</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update">
+      <created>1520870710170</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1520870710170</updated>
+    </task>
+    <task id="LOCAL-00006" summary="complete">
+      <created>1520871999163</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1520871999163</updated>
+    </task>
+    <task id="LOCAL-00007" summary="script for user sigh up and sigh in">
+      <created>1521086560945</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1521086560945</updated>
+    </task>
+    <task id="LOCAL-00008" summary="complete">
+      <created>1521086730141</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1521086730141</updated>
+    </task>
+    <task id="LOCAL-00009" summary="TCP编程测试">
+      <created>1521540695794</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1521540695794</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update">
+      <created>1521540725378</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1521540725378</updated>
+    </task>
+    <task id="LOCAL-00011" summary="udp编程测试">
+      <created>1521615737951</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1521615737951</updated>
+    </task>
+    <task id="LOCAL-00012" summary="鉴别e-mail地址脚本模块化">
+      <created>1521706014273</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1521706014273</updated>
+    </task>
+    <task id="LOCAL-00013" summary="send_e-mail v2 complete.">
+      <created>1521711121546</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1521711121546</updated>
+    </task>
+    <task id="LOCAL-00014" summary="send_e-mail v2 complete.">
+      <created>1522241078146</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1522241078146</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="335" y="45" width="1400" height="1000" extended-state="0" />
+    <frame x="67" y="31" width="1400" height="1000" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24892704" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24891461" sideWeight="0.49591598" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905483" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905483" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32555425" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24891461" sideWeight="0.504084" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3990665" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -194,48 +528,394 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="分布式进程" />
-    <option name="LAST_COMMIT_MESSAGE" value="分布式进程" />
+    <MESSAGE value="正则表达式" />
+    <MESSAGE value="目录更新、图片信息查询脚本" />
+    <MESSAGE value="script for user sigh up and sigh in" />
+    <MESSAGE value="complete" />
+    <MESSAGE value="TCP编程测试" />
+    <MESSAGE value="update" />
+    <MESSAGE value="udp编程测试" />
+    <MESSAGE value="鉴别e-mail地址脚本模块化" />
+    <MESSAGE value="send_e-mail v2 complete." />
+    <option name="LAST_COMMIT_MESSAGE" value="send_e-mail v2 complete." />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/廖雪峰python课程/进程和线程/分布式进程/taskmanager.py">
+    <entry file="file://$PROJECT_DIR$/廖雪峰python课程/19.电子邮件/SMTP发送邮件/send_e_mail_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/廖雪峰python课程/18.网络编程/02.TCP编程/tcp_server.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/廖雪峰python课程/18.网络编程/02.TCP编程/tcp_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/廖雪峰python课程/13.进程和线程/分布式进程/taskworker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/廖雪峰python课程/14.正则表达式/check_e-mail_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study notes/1.面向对象编程">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/廖雪峰python课程/15.常用內建模块/03.struct/题1/题目">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/廖雪峰python课程/15.常用內建模块/03.struct/题1/bmpinfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/廖雪峰python课程/15.常用內建模块/04.hashlib/题1/题目">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/廖雪峰python课程/15.常用內建模块/04.hashlib/题1/authentication.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1219">
+          <caret line="55" column="27" lean-forward="false" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
           <folding>
-            <element signature="e#37#63#0" expanded="true" />
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/廖雪峰python课程/13.进程和线程/分布式进程/taskworker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study notes/1.面向对象编程">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/廖雪峰python课程/15.常用內建模块/03.struct/题1/题目">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/廖雪峰python课程/14.正则表达式/check_e-mail_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/廖雪峰python课程/15.常用內建模块/03.struct/题1/bmpinfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/廖雪峰python课程/15.常用內建模块/04.hashlib/题1/题目">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/廖雪峰python课程/15.常用內建模块/04.hashlib/题1/authentication.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/廖雪峰python课程/13.进程和线程/分布式进程/taskworker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study notes/1.面向对象编程">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/廖雪峰python课程/15.常用內建模块/03.struct/题1/题目">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/廖雪峰python课程/14.正则表达式/check_e-mail_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/廖雪峰python课程/15.常用內建模块/03.struct/题1/bmpinfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/廖雪峰python课程/13.进程和线程/分布式进程/taskworker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study notes/1.面向对象编程">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/廖雪峰python课程/14.正则表达式/check_e-mail_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/廖雪峰python课程/13.进程和线程/分布式进程/taskworker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study notes/1.面向对象编程">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/廖雪峰python课程/13.进程和线程/分布式进程/taskmanager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/学习笔记/1.面向对象编程" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/idea.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/廖雪峰python课程/进程和线程/分布式进程/taskmanager.py">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/idea.properties" />
+    <entry file="file://$PROJECT_DIR$/廖雪峰python课程/13.进程和线程/分布式进程/taskmanager.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/廖雪峰python课程/13.进程和线程/分布式进程/taskworker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study notes/1.面向对象编程">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/廖雪峰python课程/15.常用內建模块/03.struct/题1/test.bmp">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/廖雪峰python课程/15.常用內建模块/03.struct/题1/题目">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/廖雪峰python课程/15.常用內建模块/03.struct/题1/bmpinfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/廖雪峰python课程/15.常用內建模块/04.hashlib/题1/题目">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/廖雪峰python课程/18.网络编程/02.TCP编程/tcp_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/json/decoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="381" column="0" lean-forward="false" selection-start-line="381" selection-start-column="0" selection-end-line="381" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/廖雪峰python课程/15.常用內建模块/04.hashlib/题1/passwd.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/廖雪峰python课程/18.网络编程/02.TCP编程/tcp_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/廖雪峰python课程/18.网络编程/03.UDP编程/udp_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/廖雪峰python课程/19.电子邮件/SMTP发送邮件/send_e_mail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="1655" column="32" lean-forward="false" selection-start-line="1655" selection-start-column="32" selection-end-line="1655" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/廖雪峰python课程/14.正则表达式/check_e-mail_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/廖雪峰python课程/15.常用內建模块/04.hashlib/题1/authentication.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="37" column="21" lean-forward="false" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
           <folding>
-            <element signature="e#37#63#0" expanded="true" />
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/廖雪峰python课程/进程和线程/分布式进程/taskworker.py">
+    <entry file="file://$PROJECT_DIR$/廖雪峰python课程/19.电子邮件/SMTP发送邮件/check_e_mail_v2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="138">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/廖雪峰python课程/18.网络编程/03.UDP编程/udp_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/廖雪峰python课程/19.电子邮件/SMTP发送邮件/send_e_mail_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
           <folding>
-            <element signature="e#21#44#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PyQuery/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫学习/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
