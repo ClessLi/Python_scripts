@@ -1,5 +1,5 @@
 #!/usr/bin/python2.7
-# encoding=utf-8
+# encoding='utf-8'
 
 import codecs
 from pyquery import PyQuery as pq
@@ -11,7 +11,7 @@ def parse_html(url):
     top_name_list = []
     for item in top_name_items.items():
         if item.text()[0] == '/':
-            top_name = top_name_list.pop() + '  ' + item.text()
+            top_name = top_name_list.pop() + item.text()[1] + item.text()
             top_name_list.append(top_name)
         else:
             top_name_list.append(item.text())
