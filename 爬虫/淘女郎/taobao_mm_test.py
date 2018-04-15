@@ -23,7 +23,8 @@ def parse_data(url):
     page_status = data['status']
     totalPage = data['data']['totalPage']
     page = data['data']['currentPage']
-    while page_status == 1 and page <= totalPage:
+    #hile page_status == 1 and page <= totalPage:
+    while page_status == 1 and page <= 1:
             img_list = data['data']['searchDOList']
             page += 1
             for item in img_list:
@@ -34,7 +35,7 @@ def parse_data(url):
                 img_url = 'https:'+item['avatarUrl']
                 file_name = '%s_%s_%skg_%scm' % (name,city,weight,height)
                 print file_name,img_url
-                save_Img(img_url,file_name)
+                #save_Img(img_url,file_name)
             print page_status,page
             url_new = url + '&currentPage=' + str(page)
             print url_new
