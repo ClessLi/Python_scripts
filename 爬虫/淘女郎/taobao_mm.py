@@ -1,3 +1,4 @@
+#!/home/cless/python2.7/bin/python2.7
 # encoding:utf-8
 from pyquery import PyQuery as pq
 from pymongo import MongoClient
