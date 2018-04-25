@@ -2,13 +2,13 @@
 # encoding:utf-8
 
 from PIL import Image
-#from matplotlib import pyplot as plt
-
+## Installation for Opencv-python: 'python -m pip install opencv-python'
+import cv2
 
 def show(file_path):
     with Image.open(file_path) as img:
-        img.show()
-        #plt.imshow(img)
+        #img.show()
+        cv2.imshow(img)
 
 if __name__ == '__main__':
-    show('test.jpg')
+    show('test.bmp')
