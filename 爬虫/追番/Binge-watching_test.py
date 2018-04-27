@@ -7,8 +7,6 @@ import time
 import urllib2
 from selenium import webdriver
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
-#使用Chrome的headless
-#from selenium.webdriver.chrome.options import Options
 
 url = 'http://ac.qq.com/Comic/ComicInfo/id/17114'
 nodes = 'ol.chapter-page-new.works-chapter-list li p span.works-chapter-item a'
@@ -38,7 +36,7 @@ for n in xrange(0,page_num):
     time.sleep(0.1)
 
 #将打开的界面截图保存，方便观察
-a = browser.get_screenshot_as_file('test.png')
+#a = browser.get_screenshot_as_file('test.png')
 
 #获取当前页面所有源码（此时包含触发出来的异步加载的资源）
 data = browser.page_source
@@ -50,9 +48,9 @@ doc = pq(data)
 cur_page_num = 1
 #print doc('ul#comicContain.comic-contain li img.loaded').items().attr('src')
 for item in doc('ul#comicContain.comic-contain li img.loaded').items():
-    #print url.attr('src'),type(url)
+    #print item.attr('src'),type(item.attr('src'))
     img_url = item.attr('src')
-    extension = url.split('.')[-1]
+    extension = img_url.split('.')[-1]
     file_name = str(cur_page_num) + '.' + extension
     img = urllib2.urlopen(img_url).read()
     with open(file_name, 'wb') as img_fp:
