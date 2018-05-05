@@ -1,7 +1,7 @@
 #!/usr/bin/python2.7
 # encoding='utf-8'
 
-import codecs
+import codecs,time
 from pyquery import PyQuery as pq
 DOWNLOAD_URL = 'https://movie.douban.com/top250'
 
@@ -21,11 +21,13 @@ def parse_html(url):
     return top_name_list, None
 
 if __name__ == '__main__':
+    start_time = time.time()
     url = DOWNLOAD_URL
     with codecs.open('top250','wb',encoding='utf-8') as fp:
         while url:
             movies, url = parse_html(url)
             fp.write(u'{movies}\n'.format(movies='\n'.join(movies)))
-
+    end_time = time.time()
+    print 'Cost %s seconds.' % (end_time - start_time)
 
 #print html('ol.grid_view li div.hd span.title').text()
