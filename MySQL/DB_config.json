@@ -1,0 +1,37 @@
+{ "master" : {
+        "write" : {
+            "host" : "docker_vm1",
+            "dbuser" : "root",
+            "dbpwd" : "",
+            "port" : 3306,
+            "dbname" : "liuyan",
+            "dbprefix" : "ly_",
+        },
+        "read" : {
+            "host": "docker_vm2",
+            "dbuser": "root",
+            "dbpwd": "",
+            "port": 3306,
+            "dbname": "liuyan",
+            "dbprefix": "ly_",
+        }
+    },
+    "server" : {
+        "write": {
+            "host": "docker_vm1",
+            "dbuser": "root",
+            "dbpwd": "",
+            "port": 3306,
+            "dbname": "liuyanben",
+            "dbprefix": "t_",
+        },
+        "read": {
+            "host": "docker_vm2",
+            "dbuser": "root",
+            "dbpwd": "",
+            "port": 3306,
+            "dbname": "liuyanben",
+            "dbprefix": "t_",
+        }
+    }
+}
