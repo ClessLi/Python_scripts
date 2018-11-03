@@ -5,7 +5,7 @@
             "dbpwd" : "",
             "port" : 3306,
             "dbname" : "liuyan",
-            "dbprefix" : "ly_",
+            "dbprefix" : "ly_"
         },
         "read" : {
             "host": "docker_vm2",
@@ -13,7 +13,7 @@
             "dbpwd": "",
             "port": 3306,
             "dbname": "liuyan",
-            "dbprefix": "ly_",
+            "dbprefix": "ly_"
         }
     },
     "server" : {
@@ -23,7 +23,7 @@
             "dbpwd": "",
             "port": 3306,
             "dbname": "liuyanben",
-            "dbprefix": "t_",
+            "dbprefix": "t_"
         },
         "read": {
             "host": "docker_vm2",
@@ -31,7 +31,25 @@
             "dbpwd": "",
             "port": 3306,
             "dbname": "liuyanben",
-            "dbprefix": "t_",
+            "dbprefix": "t_"
+        }
+    },
+    "test" : {
+        "write": {
+            "host": "192.168.220.84",
+            "dbuser": "test",
+            "dbpwd": "test",
+            "port": 3306,
+            "dbname": "test",
+            "dbprefix": "t_"
+        },
+        "read": {
+            "host": "192.168.220.85",
+            "dbuser": "test",
+            "dbpwd": "test",
+            "port": 3306,
+            "dbname": "test",
+            "dbprefix": "t_"
         }
     }
 }

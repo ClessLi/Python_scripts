@@ -1,13 +1,21 @@
 import sys
+from typing import Dict, Any
+
 import pymysql
 import random
 import json
-try:
-    with open('./DB_config.json', 'rb') as dbconfig:
-        dbconfig = json.load(dbconfig)
-except FileExistsError as err:
-    print("FileERR数据库配置文件无效：  \n[%s]" % (err))
-    exit()
+
+
+def getConfig(filepath='./DB_config.json'):
+    try:
+        with open(filepath, 'rb') as config:
+            return json.load(config)
+    except Exception as err:
+        print("FileERR数据库配置文件无效：  \n[%s]" % (err))
+        exit()
+
+
+dbconfig = getConfig()
 
 
 class DB:
@@ -16,7 +24,8 @@ class DB:
     _mode = "read"  # write,read
     _host = ''
 
-    def __init__(self, dbconfig, host="master"):
+    def __init__(self, host="master", dbconfig=dbconfig):
+#        self.link = {}
         self._host = host
         self._dbconfig = dbconfig
 
@@ -176,7 +185,7 @@ class DB:
             # self.link.commit()
             return insert
         except Exception as err:
-            self.link.rollback()
+            self.rollback()
             print("DBERR数据库批量插入记录失败：\n[%s]" % (err))
             exit()
 
