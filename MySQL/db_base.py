@@ -6,28 +6,24 @@ import random
 import json
 
 
-def getConfig(filepath='./DB_config.json'):
-    try:
-        with open(filepath, 'rb') as config:
-            return json.load(config)
-    except Exception as err:
-        print("FileERR数据库配置文件无效：  \n[%s]" % (err))
-        exit()
-
-
-dbconfig = getConfig()
-
-
 class DB:
     link = dict()
     _res = ''
     _mode = "read"  # write,read
     _host = ''
 
-    def __init__(self, host="master", dbconfig=dbconfig):
+    def __init__(self, host="master", filepath='./db_config.json'):
 #        self.link = {}
         self._host = host
-        self._dbconfig = dbconfig
+        self._dbconfig = self.getConfig(filepath)
+
+    def getConfig(self, filepath):
+        try:
+            with open(filepath, 'rb') as config:
+                return json.load(config)
+        except Exception as err:
+            print("FileERR数据库配置文件无效：  \n[%s]" % (err))
+            exit()
 
     def connect(self, mode="read"):
         try:
