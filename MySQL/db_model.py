@@ -1,7 +1,6 @@
-from MySQL.db_base import DB, getConfig
+from MySQL.db_base import DB
 
 
-dbconfig = getConfig()
 
 
 '''
@@ -29,9 +28,9 @@ class Model:
 
     db = {}
 
-    def __init__(self, host="master"):
+    def __init__(self, host="master", filepath='./DB_config.json'):
         self._host = host
-        mysql = DB(host.lower())  # 实例化数据库类
+        mysql = DB(host.lower(), filepath)  # 实例化数据库类
         self.db[self._host] = mysql
 
     def max(self, field):
