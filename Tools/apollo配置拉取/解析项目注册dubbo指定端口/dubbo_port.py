@@ -45,7 +45,7 @@ def getDubboPort(projectName, confPath, env):
     clusterName = "default"
     config_url = confUrl(env, appID, clusterName, nameSpace)
     if config_url:
-        appConfJson = json.load(pq(config_url)('p').text())
+        appConfJson = json.loads(pq(config_url)('p').text())
         port = appConfJson.get("configurations").get("dubbo.provider.port")
         if port:
             return port
