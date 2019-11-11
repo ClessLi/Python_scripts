@@ -1,0 +1,55 @@
+{ "master" : {
+        "write" : {
+            "host" : "10.1.56.194",
+            "dbuser" : "monitor",
+            "dbpwd" : "monitor",
+            "port" : 3306,
+            "dbname" : "db_monitor",
+            "dbprefix" : "tab_"
+        },
+        "read" : {
+            "host": "10.1.56.194",
+            "dbuser": "monitor",
+            "dbpwd": "monitor",
+            "port": 3306,
+            "dbname": "db_monitor",
+            "dbprefix": "tab_"
+        }
+    },
+    "server" : {
+        "write": {
+            "host": "docker_vm1",
+            "dbuser": "root",
+            "dbpwd": "",
+            "port": 3306,
+            "dbname": "liuyanben",
+            "dbprefix": "t_"
+        },
+        "read": {
+            "host": "docker_vm2",
+            "dbuser": "root",
+            "dbpwd": "",
+            "port": 3306,
+            "dbname": "liuyanben",
+            "dbprefix": "t_"
+        }
+    },
+    "test" : {
+        "write": {
+            "host": "192.168.220.84",
+            "dbuser": "test",
+            "dbpwd": "test",
+            "port": 3306,
+            "dbname": "test",
+            "dbprefix": "t_"
+        },
+        "read": {
+            "host": "192.168.220.85",
+            "dbuser": "test",
+            "dbpwd": "test",
+            "port": 3306,
+            "dbname": "test",
+            "dbprefix": "t_"
+        }
+    }
+}
