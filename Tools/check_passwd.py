@@ -19,7 +19,7 @@ async def ssh_by_passwd(hostname, username, passwd, cmd):
             result = await conn.run(cmd, check=True)
             return result.stdout.strip('\n')
         #print(result.stdout, end='')
-        except asyncssh. as err:
+        except asyncssh.Error as err:
             print('访问服务器[%s]失败：\n%s' % (hostname, err))
             return 'Fail'
 
@@ -65,8 +65,8 @@ class OVER_WATCH():
 
 
 if __name__ == '__main__':
-    #hostlist_path = sys.argv[1]
-    hostlist_path = 'lt_oper'
+    hostlist_path = sys.argv[1]
+    # hostlist_path = 'lt_oper'
     if os.path.exists(hostlist_path):
         overwatch = OVER_WATCH(hostlist_path)
         overwatch.main()
