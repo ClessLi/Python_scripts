@@ -38,14 +38,18 @@ def confUrl(env, appid, cname, ns):
 def getDubboPort(projectName, confPath, env):
     conf = configparser.ConfigParser()
     conf.read(confPath)
-    appID = conf[projectName]["APOLLO_APP_ID"]
-    nameSpace = conf[projectName]["APOLLO_NAMESPACE"]
+    # appID = conf[projectName]["APOLLO_APP_ID"]
+    appID = conf.get(projectName, "APOLLO_APP_ID")
+    # nameSpace = conf[projectName]["APOLLO_NAMESPACE"]
+    nameSpace = conf.get(projectName, "APOLLO_NAMESPACE")
     if not nameSpace:
         nameSpace = "application"
-    clusterName = conf[projectName]["APOLLO_CLUSTER"]
+    # clusterName = conf[projectName]["APOLLO_CLUSTER"]
+    clusterName = conf.get(projectName, "APOLLO_CLUSTER")
     if not clusterName:
         clusterName = "default"
-    dubboPortKey = conf[projectName]["APOLLO_DUBBO_PORT_KEY"]
+    # dubboPortKey = conf[projectName]["APOLLO_DUBBO_PORT_KEY"]
+    dubboPortKey = conf.get(projectName, "APOLLO_DUBBO_PORT_KEY")
     if not dubboPortKey:
         dubboPortKey = "dubbo.provider.port"
     if appID and nameSpace and clusterName:
